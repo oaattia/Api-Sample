@@ -1,0 +1,30 @@
+{
+    "name": "livestyled-dev/test.livestyled",
+    "description": "Refactor! A test for LiveStyled candidates",
+    "type": "PHP",
+    "require": {
+        "php": "7.1.*",
+        "ext-json": "*",
+        "symfony/http-foundation": "^4.3"
+    },
+    "authors": [
+        {
+            "name": "Aman Vivek Ramkumar",
+            "email": "aman.ramkumar@livestyled.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Refactor\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5",
+        "guzzlehttp/guzzle": "^6.3"
+    }
+}
